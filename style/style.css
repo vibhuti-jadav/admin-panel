@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.sidebar{
+    width:300px !important;
+    background-color: #101c42 !important;
+    transition: all 0.5s !important;
+    color: white !important;
+}
+
+.main{
+    height: 100vh !important;
+}
+
+.hideside{
+    width:50px !important;
+}
+
+.pr-2{
+    padding-right: 8px !important;
+}
+
+.li{
+    list-style: none !important;
+}
+
+
+
