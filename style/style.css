@@ -4,7 +4,13 @@
     padding: 0;
 }
 
+.padding-0{
+padding: 0% !important;
+}
 
+.pr-2{
+    padding-right: 8px !important;
+}
 
 .sidebar{
     width:300px !important;
@@ -21,9 +27,6 @@
     width:50px !important;
 }
 
-.pr-2{
-    padding-right: 8px !important;
-}
 
 .li{
     list-style: none !important;
@@ -33,4 +36,13 @@
     color: #858fb4 !important;
 }
 
+.icon{
+    width: 15% !important;
+}
+.icon2{
+    width: 28% !important;
+}
 
+.content{
+    width: 58% !important;
+}
