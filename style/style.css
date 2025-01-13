@@ -11,6 +11,9 @@ padding: 0% !important;
 .pr-2{
     padding-right: 8px !important;
 }
+.p-l-2{
+    padding-left: 10px !important;
+}
 
 .sidebar{
     width:300px !important;
@@ -45,4 +48,25 @@ padding: 0% !important;
 
 .content{
     width: 58% !important;
+}
+
+/* --------------background-color----------------- */
+
+.bg-1{
+    background-color: #845adf !important;
+}
+.bg-2{
+    background-color:#23b7e5 !important;
+}
+.bg-3{
+    background-color:#f6b849 !important;
+}
+.bg-4{
+    background-color:#2cbc94 !important;
+}
+.bg-5{
+    background-color:#e891bc !important;
+}
+.bg-6{
+    background-color: #49b7f6 !important;
 }
