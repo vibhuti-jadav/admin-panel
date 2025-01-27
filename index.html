@@ -214,7 +214,7 @@
                       </div>
                       <div class="icon2 ">
                         <p class=" fw-bolder mb-0">Full time</p>
-                        <p class="p-0 mt-0 m-0">Fresher</p>
+                        <p class="p-0 mt-0 m-0 border ">Fresher</p>
                       </div>
                         </div>
                       </div>
@@ -237,7 +237,7 @@
 
                       <div class="col  ">
                         <div class="inner border-bottom  p-2 d-flex">
-                          <div class="icon  mt-2" >
+                          <div class="icon  mt-2">  
                               <i class=" fs-6 bg-5 p-2 text-light rounded-circle">LS</i>
                           </div>
                       <div class="content ">
@@ -282,5 +282,30 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/script.js"></script>
+
+
+    <script>
+      var options = {
+    series: [44, 55, 41, 17, 15],
+    chart: {
+    type: 'donut',
+  },
+  responsive: [{
+    breakpoint: 480,
+    options: {
+      chart: {
+        width: 200
+      },
+      legend: {
+        position: 'bottom'
+      }
+    }
+  }]
+  };
+
+  var chart = new ApexCharts(document.querySelector("#chart"), options);
+  chart.render();
+
+    </script>
 </body>
 </html>
