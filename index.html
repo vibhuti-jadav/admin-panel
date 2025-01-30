@@ -54,22 +54,34 @@
                       
                       <i class="ri-search-eye-line fs-5 pr-2"></i>
                       
-                      <button type="button" class="border-0 bg-white position-relative pr-2">
-                       <i class="ri-shopping-cart-2-line fs-5"></i> 
+                      <button type="button" class="border-0 bg-white position-relative ">
+                       <i class="ri-shopping-cart-2-line fs-5 "></i> 
                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
                           5
                           <span class="visually-hidden">unread messages</span>
                         </span>
                       </button>
-                      
-                      <button type="button" class="border-0 bg-white position-relative pr-2">
-                        <i class="ri-notification-3-line fs-5"></i>
-                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+                    
+                      <button type="button" class="border-0 bg-white position-relative bg-transparent ">
+                        <i class="ri-notification-3-line fs-5 "></i>
+                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary ">
                            5
                            <span class="visually-hidden">unread messages</span>
                          </span>
                        </button>
+                     </div>
+
+                  <div class="border border-danger d-flex padding-0">
+                    <div class="border border-success padding-0">
+                      <img src="img/9.jpg"  class="img-fluid padding-0 rounded-circle d-flex justify-content-end" width="25%" alt="">  
                     </div>
+                    <div class="border border-primary">
+                      <p>json Taylor</p>
+                      <p>Web Designer</p>
+                    </div>
+                  </div>
+                  
+                  
                     <!-- <div class="imgpart border border-danger ">
                          <img src="img/icon.png" alt="" class="p-0" width="4%"> 
                        <img src="img/9.jpg"  class="img-fluid rounded-circle" width="25%" alt="">  
@@ -284,28 +296,6 @@
     <script src="js/script.js"></script>
 
 
-    <script>
-      var options = {
-    series: [44, 55, 41, 17, 15],
-    chart: {
-    type: 'donut',
-  },
-  responsive: [{
-    breakpoint: 480,
-    options: {
-      chart: {
-        width: 200
-      },
-      legend: {
-        position: 'bottom'
-      }
-    }
-  }]
-  };
-
-  var chart = new ApexCharts(document.querySelector("#chart"), options);
-  chart.render();
-
-    </script>
+    
 </body>
 </html>
