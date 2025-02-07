@@ -16,6 +16,10 @@ padding: 0% !important;
     padding-left: 10px !important;
 }
 
+.m-l{
+    margin-left: 25px !important;
+}
+
 .sidebar{
     width:300px !important;
     background-color: #101c42 !important;
