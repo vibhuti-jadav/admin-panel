@@ -197,7 +197,10 @@
 
               </div>
               
-                <div class="col-12 border border-success p-3"></div>
+                <div class="col-12 border border-success p-3">
+                  
+                </div>
+
             </div>
             <div class="col border border-gray p-3">
               <div class="row row-cols-1 row-cols-lg-2">
@@ -284,19 +287,120 @@
                       
                   </div>
                 </div>
-                <div class="col border  p-2"></div>
+                <div class="col border  p-2">
+                  <div>
+                    <canvas id="myChart"></canvas>
+                  </div>
+                </div>
                 
               </div>
 
-              <div class="col border border-warning">
+              <div class="col border border-warning p-3">
                   <div class="d-flex justify-content-between">
                       <h5>Recent Recruiter Registrations</h5>
-                      <option class="">View All
-                        <select name="" id="">Today</select>
-                        <select name="" id="">This Week</select>
-                        <select name="" id="">Last Week</select>
+                      <select name="" id="">
+                        <option value="">View All</option>
+                        <option value="">today</option>
+                        <option value="">this week</option>
+                        <option value="">last week</option>
+                      </select>
+                  </div>
 
-                      </option>
+                  <div class="row">
+                      <div class="col p-1 border border-danger">
+                        <div class="col  ">
+                          <div class="inner  d-flex">
+                            <div class="icon  mt-2" >
+                                <!-- <i class=" fs-6 bg-5 p-2 text-light rounded-circle">AC</i> -->
+                                 <img src="img/4.jpg" alt="" class="rounded-circle img-fluid">
+                            </div>
+                        <div class="content ">
+                            <p class="mb-0  fw-medium pr-2 ">Hr@spruko</p>
+                            <p class="">Hr.skuo@gmail.com</p>
+                        </div>
+                        <div class="icon2 ">
+                          <!-- <p class=" fw-bolder mb-0">Full time</p> -->
+                           <div class="d-flex justify-content-end">
+                              <button class="border-0 p-1 rounded  "><i class="ri-arrow-right-wide-fill"></i></button>
+                           </div>
+                         
+                        </div>
+                          </div>
+                        </div>
+
+                          <div class="d-flex justify-content-between">
+                            <p class=" pb-0 mb-0">Vacancies</p>
+                            <p class=" pb-0 mb-0">07</p>
+                          </div>
+                          <div class="d-flex justify-content-between ">
+                            <p>Position</p>
+                            <p>Aws engineer</p>
+                          </div>
+  
+                      </div>
+
+
+                      <div class="col p-1 border border-danger">
+                             <div class="col  ">
+                          <div class="inner  d-flex">
+                            <div class="icon  mt-2" >
+                                <!-- <i class=" fs-6 bg-5 p-2 text-light rounded-circle">AC</i> -->
+                                 <img src="img/4.jpg" alt="" class="rounded-circle img-fluid">
+                            </div>
+                        <div class="content ">
+                            <p class="mb-0  fw-medium pr-2 ">Hr@nicero</p>
+                            <p class="">nircero,.help@gmail.com</p>
+                        </div>
+                        <div class="icon2 ">
+                          <!-- <p class=" fw-bolder mb-0">Full time</p> -->
+                           <div class="d-flex justify-content-end">
+                              <button class="border-0 p-1 rounded  "><i class="ri-arrow-right-wide-fill"></i></button>
+                           </div>
+                         
+                        </div>
+                          </div>
+                        </div>
+
+                          <div class="d-flex justify-content-between">
+                            <p class=" pb-0 mb-0">Vacancies</p>
+                            <p class=" pb-0 mb-0">16</p>
+                          </div>
+                          <div class="d-flex justify-content-between ">
+                            <p>Position</p>
+                            <p>React Developer</p>
+                          </div>
+                      </div>
+
+                      <div class="col p-1 border border-danger">
+                             <div class="col  ">
+                          <div class="inner  d-flex">
+                            <div class="icon  mt-2" >
+                                <!-- <i class=" fs-6 bg-5 p-2 text-light rounded-circle">AC</i> -->
+                                 <img src="img/15.jpg" alt="" class="rounded-circle img-fluid">
+                            </div>
+                        <div class="content ">
+                            <p class="mb-0  fw-medium pr-2 ">josephSmith</p>
+                            <p class="">josephSmith@gmail.com</p>
+                        </div>
+                        <div class="icon2 ">
+                          <!-- <p class=" fw-bolder mb-0">Full time</p> -->
+                           <div class="d-flex justify-content-end">
+                              <button class="border-0 p-1 rounded  "><i class="ri-arrow-right-wide-fill"></i></button>
+                           </div>
+                         
+                        </div>
+                          </div>
+                        </div>
+
+                          <div class="d-flex justify-content-between">
+                            <p class=" pb-0 mb-0">Vacancies</p>
+                            <p class=" pb-0 mb-0">32</p>
+                          </div>
+                          <div class="d-flex justify-content-between ">
+                            <p>Position</p>
+                            <p>UI developer</p>
+                          </div>
+                      </div>
                   </div>
               </div>
             </div>
@@ -308,6 +412,49 @@
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/script.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const ctx = document.getElementById('myChart');
+
+  new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: ['Male Candidate', 'Female Candidate'],
+      datasets: [{
+        label: '# of Votes',
+        data: [12, 19],
+        weight:200,
+      }]
+    },
+    options: {
+     
+    }
+  });
+</script>
+
+<script>
+   
+
+new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+    datasets: [{
+      label: '# of Votes',
+      data: [12, 19, 3, 5, 2, 3],
+      borderWidth: 1
+    }]
+  },
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true
+      }
+    }
+  }
+});
+</script>
+ 
 
     
 </body>
