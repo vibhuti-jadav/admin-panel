@@ -198,7 +198,9 @@
               </div>
               
                 <div class="col-12 border border-success p-3">
-                  
+                  <div>
+                    <canvas id="myChart2"></canvas>
+                  </div>
                 </div>
 
             </div>
@@ -354,7 +356,8 @@
                         <div class="icon2 ">
                           <!-- <p class=" fw-bolder mb-0">Full time</p> -->
                            <div class="d-flex justify-content-end">
-                              <button class="border-0 p-1 rounded  "><i class="ri-arrow-right-wide-fill"></i></button>
+                              <button class="border-0 p-1 rounded  ">
+                                <i class="ri-arrow-right-wide-fill"></i></button>
                            </div>
                          
                         </div>
@@ -416,6 +419,7 @@
 <script>
   const ctx = document.getElementById('myChart');
 
+
   new Chart(ctx, {
     type: 'doughnut',
     data: {
@@ -433,9 +437,9 @@
 </script>
 
 <script>
+     const ctx2 = document.getElementById('myChart2');
    
-
-new Chart(ctx, {
+new Chart(ctx2, {
   type: 'line',
   data: {
     labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
@@ -454,8 +458,6 @@ new Chart(ctx, {
   }
 });
 </script>
- 
-
-    
+     
 </body>
 </html>
