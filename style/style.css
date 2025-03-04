@@ -9,6 +9,7 @@ padding: 0% !important;
 }
 
 
+
 .pr-2{
     padding-right: 15px !important;
 }
@@ -86,5 +87,17 @@ padding: 0% !important;
     font-size: 13px !important;
 }
 
-
+@media (max-width:998px)
+{
+    .w-sm-4{
+        overflow: hidden !important;
+        width: 0px !important;
+    }
+    .hideside{
+        width: 300px;
+    }
+    .block{
+        display: none;
+    }
+}
       
