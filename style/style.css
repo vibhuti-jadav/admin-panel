@@ -81,9 +81,52 @@ padding: 0% !important;
 .bg-back{
     background-color: #f0f1f6 !important;
 }
+.bg-dg{
+    background-color: #2cbc94 !important;
+}
+
+
+.bg-g{
+    background-color: #e9f8f5 !important;
+}
+.bg-b{
+    background-color: #ecf8fe !important;
+}
+
+
+.bg-ra{
+    background-color: #f2eefc !important;
+}
+.bg-rs{
+    background-color: #e9f8fd !important;
+}
+
+
+
+
+
 
 .fonts{
     font-size: 13px !important;
+}
+
+
+.text-1{
+    color: #29b38b;
+}
+.text-2{
+    color: #66b5e2;
+}
+.text-f{
+    color: #845adf;
+}
+
+
+.text-ra{
+    color: #8570b2 !important;
+}
+.text-rs{
+    color: #5fbbd8 !important;
 }
 
 @media (max-width:998px)
